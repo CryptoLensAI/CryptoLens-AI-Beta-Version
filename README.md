@@ -11,5 +11,6 @@ https://www.python.org/downloads/release/python-3116/
 Install this in the terminal: 
 pip install python-telegram-bot requests apscheduler pytz asyncio
 
-
+To run program:
+python cryptolens_ai.py
 

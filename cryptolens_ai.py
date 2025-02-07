@@ -245,7 +245,7 @@ async def stop_scheduler(app):
     app.scheduler.shutdown(wait=False)
 
 def main() -> None:
-    application = Application.builder().token("7959528436:AAFtl-Oqxr_1Llb8jCnVzLr8ld40OZOBHs0").build()
+    application = Application.builder().token("YOUR TOKEN").build()
     
     application.post_init = start_scheduler
     application.post_stop = stop_scheduler

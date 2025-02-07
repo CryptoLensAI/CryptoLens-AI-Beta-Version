@@ -1,5 +1,9 @@
 # CryptoLens-AI-Beta-Version
 
-Python Code created the creator of CryptoLens AI:
+Steps to run this successfully:
+
+Install this in the terminal: 
+pip install python-telegram-bot requests apscheduler pytz asyncio
+
 
 
